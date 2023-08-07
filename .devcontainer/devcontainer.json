@@ -1,0 +1,14 @@
+{
+    // "build": { "dockerfile": "Dockerfile" },
+    "image": "ipworkshop/codespace-rust:1.0",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rust-lang.rust-analyzer",
+                "tamasfe.even-better-toml"
+            ]
+        }
+    },
+    "containerUser": "codespace",
+    "remoteUser": "codespace"
+}
